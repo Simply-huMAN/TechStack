@@ -1,0 +1,65 @@
+<!--
+  Welcome to Tailwind Play, the official Tailwind CSS playground!
+
+  Everything here works just like it does when you're running Tailwind locally
+  with a real build pipeline. You can customize your config file, use features
+  like `@apply`, or even add third-party plugins.
+
+  Feel free to play with this example if you're just learning, or trash it and
+  start from scratch if you know enough to be dangerous. Have fun!
+-->
+<div class="m-4 flex flex-col justify-center items-center bg-gradient-to-tr from-red-300 to-yellow-100 rounded-md">
+  <h1 class="m-4 text-2xl font-bold font-sans">Tech Stack</h1>
+  <div class="flex justify-center items-center flex-wrap">
+    <div class="w-28 m-1">
+      <img src="https://img.icons8.com/color/256/html-5.png" alt="html5">
+    </div>
+    <div class="w-28 m-1">
+      <img class="rounded-" src="https://img.icons8.com/fluency/256/css3.png" alt="css5">
+    </div>
+    <div class="w-28 m-1">
+      <img class="rounded-" src="https://img.icons8.com/color/256/javascript.png" alt="jacascript">
+    </div>
+    <div class="w-24 m-1">
+      <img class="rounded-" src="https://img.icons8.com/officel/256/react.png" alt="react">
+    </div>
+    <div class="w-28 m-1">
+      <img class="rounded-" src="https://img.icons8.com/fluency/256/tailwind_css.png" alt="tailwind">
+    </div>
+    <div class="w-24 m-1">
+      <img class="rounded-" src="https://img.icons8.com/color/256/c-plus-plus-logo.png" alt="c++">
+    </div>
+  </div>
+  <div class="mb-3">
+    <p class="italic">"Invest in your hardwork, it pays off"</p>
+  </div>
+</div>
+
+<div class="m-4 flex flex-wrap justify-center items-center rounded-md">
+  <div class="m-2">  
+    <div class="w-32 h-32 flex items-center justify-center rounded-full bg-blue-200">
+      <a href="mailto:malothaditya006@gmail.com">
+        <img class="w-28" src="https://img.icons8.com/color/256/apple-mail.png" alt="email me">
+      </a>
+    </div>
+    <h1 class="text-center font-semibold">Email me</h1>
+  </div>
+
+  <div class="m-2">  
+    <div class="w-32 h-32 flex items-center justify-center rounded-full bg-orange-200">
+      <a href="https://www.paypal.com/paypalme/malothaditya?locale.x=en_GB">
+        <img class="w-28" src="https://img.icons8.com/fluency/256/coffee-to-go.png" alt="buy me coffee">
+      </a>
+    </div>
+    <h1 class="text-center font-semibold">Buy me coffee</h1>
+  </div>
+
+  <div class="m-2">  
+    <div class="w-32 h-32 flex items-center justify-center rounded-full bg-red-200">
+      <a href="https://linktr.ee/MalothAditya?utm_source=linktree_profile_share&ltsid=b6e39575-3803-4640-8931-82730e4fcc81">
+        <img class="w-28" src="https://img.icons8.com/emoji/256/heart-suit.png" alt="spread love">
+      </a>
+    </div>
+    <h1 class="text-center font-semibold">Spread love</h1>
+  </div>
+</div>
